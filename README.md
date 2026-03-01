@@ -1,5 +1,5 @@
 # Multi-Omics Integration for Personalised Medicine
-Group project as part of the **Introduction to Multi-Omics Data Integration and Visualisation** course from 3rd to 7th March 2025 at the European Bioinformatics Institute (EBI).
+Group project as part of the **Introduction to Multi-Omics Data Integration and Visualisation** course from 2nd to 6th March 2025 at the European Bioinformatics Institute (EBI).
 
 ## Environment Setup
 It's recommended to create a new environment using [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) or [Micromamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html) and activate it using `conda activate` or `mamba activate`.

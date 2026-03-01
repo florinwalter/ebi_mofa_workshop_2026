@@ -1,10 +1,8 @@
 import pandas as pd
 from anndata import AnnData
 import os
-import muon as mu
 import numpy as np
 import anndata as ad
-import mudata as md
 
 
 def load_cll(data_path="data/"):
@@ -58,7 +56,4 @@ def load_cll(data_path="data/"):
         "drugs" : drugs_adata
     }
 
-    mdata = md.MuData(modality_dict)
-    mdata.obs = metadata_df.loc[mdata.obs_names]
-
-    return mdata
+    return modality_dict
